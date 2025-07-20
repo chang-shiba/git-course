@@ -1,0 +1,14 @@
+# Question 1: Giải thích các câu lệnh
+- git init: khởi tạo git
+- git add <file_name>: add file_name trong folder vừa mở vào staging area
+- git add .:add toàn bộ file trong folder vào staging area
+- git commit -m “message”: commit lên Repository cùng message 
+
+# Question 2: Folder lession-2
+- Tạo 3 file: file1, file2, file3 - Working Directory
+- Chạy lệnh: git init - Working Directory
+- Chạy lệnh: git commit -m”init project” - Error vì chưa có gì ở Staging Area
+- Chạy lệnh: git add file1 - file1 được chuyển lên Staging Area
+- Chạy lệnh: git commit -m”add file1” - Commit file1 lên Repository
+- Chạy lệnh: git commit -m”add file” - Error vì không có file nào tên vậy ở Staging Area 
+
